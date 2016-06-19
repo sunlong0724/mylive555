@@ -1,0 +1,9 @@
+BasicTaskScheduler0  内持有DelayQueue、HandlerSet、event 三类动作。
+
+UsageEnvironment 内持有TaskScheduler类
+
+一般类的继承关系 eg.
+BasicTaskScheduler--------->BasicTaskScheduler0----------->TaskScheduler
+BasicUsageEnvironment------>BasicUsageEnvironment0--------->UsageEnvironment
+
+其他类似。        
